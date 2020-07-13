@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: segoe ui light;
+}
+h4{
+    color: white;
+}
+
+h5{
+    color: white;
+    padding-top: 15px;
+}
+
+.container{
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 120px;
+    border: 2px solid rgb(194, 189, 189);
+    margin: 200px auto;
+    visibility: visible;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#load{
+    width: 100px;
+    height: 10px;
+    background-color: white;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.appear{
+    top: -300px;
+    visibility: visible;
+}
